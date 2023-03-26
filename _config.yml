@@ -16,7 +16,7 @@
 title: Shuzhao @ GitHub
 # email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Metabolomics, Immunology, Bioinformatics
+  Metabolomics, Immunology, Bioinformatics, modeling
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://shuzhao-li.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: none
@@ -24,9 +24,12 @@ github_username:  shuzhao-li
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
-  - jekyll-feed
+- jekyll-feed
+- jekyll-remote-theme
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
