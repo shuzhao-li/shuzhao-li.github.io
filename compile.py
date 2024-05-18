@@ -82,7 +82,7 @@ def main():
         target="docs/publications.html"
         )
     make_posts_html(
-        header="src/_header.htm", footer="src/_footer.htm", body="src/_underconstruction.htm", 
+        header="src/_header.htm", footer="src/_footer.htm", body="src/_posts.htm", 
         target="docs/teaching.html"
         )
     
