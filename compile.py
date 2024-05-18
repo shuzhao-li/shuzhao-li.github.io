@@ -80,9 +80,13 @@ def main():
         header="src/_header.htm", footer="src/_footer.htm", body="src/bibtex_publications.htm", 
         target="docs/publications.html"
         )
+    make_posts_html(
+        header="src/_header.htm", footer="src/_footer.htm", body="src/_underconstruction.htm", 
+        target="docs/teaching.html"
+        )
     
     make_cv_html(
-        header="src/_header.htm", footer="src/_footer.htm", body="src/_cv.htm", 
+        header="src/_header.htm", footer="src/_footer.htm", body="src/_underconstruction.htm", 
         target="docs/cv.html"
         )
     make_chinese_html(

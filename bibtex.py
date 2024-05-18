@@ -32,8 +32,9 @@ def format_dict_div(d):
     ]]) + '</p>'
     return tempalte_left + r + tempalte_right
 
-def convert_entry(bibtext, required=required):
-    '''returns HMTL
+def get_dict_from_entry(bibtext, required=required):
+    '''
+    return dict
     '''
     d = {}
     LL = [line.strip() for line in bibtext.splitlines()[1:] if len(line)>3]
@@ -49,11 +50,16 @@ def convert_entry(bibtext, required=required):
     for x in required:
         if x not in d:
             d[x] = ''
-    return format_dict_div(d)
     
+    return d
+
 def convert_bibtext_file(file):
-    LL = open(file).read().split('@')
+    LL = [get_dict_from_entry(x) for x in open(file).read().split('@')]
+    # get sorted list of dicts
+    LL.sort(key=lambda x: x['year'], reverse=True)
+    
     r = ''
     for L in LL:
-        r += convert_entry(L) + '\n'
+        r += format_dict_div(L) + '\n'
+        
     return r
