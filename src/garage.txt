@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="main-style.css">
+
+
+<div class="container-fluid text-left">    
+  <div class="row">
+
+<div class="col-sm-12">
+<h3>Header h3</h3>
+<p>Some text..</p>
+</div>
+
+<div class="col-sm-12">
+<h3>Header h3</h3>
+<p>
+  Test.
+</p>
+</div>
+
+<div class="col-sm-12">
+<h3>洛基的鬼城 2006</h3>
+<p>
+  西进的先行者们筚路蓝缕，出生入死，追寻着野性和自由。然而这个历史时期带给土著印地安人的是衰落和死亡。这个西部的故事无法无天，荡气回肠，血泪交溅，扑朔迷离。
+
+</p>
+
+</div>
+
+</div>
+</div>
+
+
+  .sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+  
+  <dl class="dl-horizontal">
+    <dt>Research</dt>
+    <dd>metabolomics, exposome, computing, immunology</dd>
+    <dt>Associate Professor</dt>
+    <dd>The Jackson Laboratory for Genomic Medicine</dd>
+    <dt>Visiting Associate Professor</dt>
+    <dd>Department of Immunology, University of Connecticut School of Medicine</dd>
+
+  </dl>
+
+  
