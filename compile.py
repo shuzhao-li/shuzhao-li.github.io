@@ -67,7 +67,8 @@ def main():
     # Convert Google Scholar exported bibtex to HTML
     with open("src/bibtex_publications.htm", 'w') as F:
         F.write(
-            convert_bibtext_file("src/citations.txt")
+            '''<div class="container-fluid text-left">\n''' +
+            convert_bibtext_file("src/citations.txt") + '''\n</div>'''
         )
         
     make_index_html(
