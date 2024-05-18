@@ -26,6 +26,13 @@ def main():
     # Convert Google Scholar exported bibtex to HTML
     with open("src/bibtex_publications.htm", 'w') as F:
         F.write(
+            '''<div class="container-fluid text-left"><p>
+            <h4>Publications</h4>
+            <ul> 
+            <li><a href="https://scholar.google.com/citations?user=lNBq0asAAAAJ&hl=en">Google Scholar</a></li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=shuzhao+li&sort=date">PubMed</a></li>
+            </ul>
+            </p></div>''' + 
             '''<div class="container-fluid text-left">\n''' +
             convert_bibtext_file("src/citations.txt") + '''\n</div>'''
         )
