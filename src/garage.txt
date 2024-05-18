@@ -63,3 +63,63 @@
   </dl>
 
   
+          <button type="button" class="btn btn-default" aria-label="Left Align">
+            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+          </button>
+
+
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>    
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+
+
+
+# make publications.html
+def make_publications_html(header, footer, body, target="docs/publications.html"):
+    new = header + prepare_html(open(body).read()) + footer
+    with open(target, 'w') as F:
+        F.write(new)
+
+# make cv.html
+def make_cv_html(header, footer, body, target="docs/cv.html"):
+    
+    new = prepare_html(open(header).read()
+                ) + prepare_html(open(body).read()
+                ) + prepare_html(open(footer).read()
+                )
+    with open(target, 'w') as F:
+        F.write(new)
+
+# make chinese.html
+def make_chinese_html(header, footer, body, target="docs/chinese.html"):
+    
+    new = prepare_html(open(header).read()
+                ) + prepare_html(open(body).read()
+                ) + prepare_html(open(footer).read()
+                )
+    with open(target, 'w') as F:
+        F.write(new)
+
+# make posts.html
+def make_posts_html(header, footer, body, target="docs/posts.html"):
+    
+    new = prepare_html(open(header).read()
+                ) + prepare_html(open(body).read()
+                ) + prepare_html(open(footer).read()
+                )
+    with open(target, 'w') as F:
+        F.write(new)
+
+# make teaching.html
+def make_teaching_html(header, footer, body, target="docs/teaching.html"):
+    
+    new = prepare_html(open(header).read()
+                ) + prepare_html(open(body).read()
+                ) + prepare_html(open(footer).read()
+                )
+    with open(target, 'w') as F:
+        F.write(new)
