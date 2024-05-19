@@ -1,6 +1,5 @@
 洛基的鬼城
-
-2006-4
+========
 
 洛基山脉（Rocky Mountains）富存矿物。金银等贵重金属在印加帝国的时代就广为开发，后来也成了欧洲入侵者窥觑的对象。而在美国境内，洛基的矿物开采多开始于十九世纪下半叶。先是加州的淘金热吸引了国内外大批移民，许多寻矿人继尔进入到Oregon，Idaho，Colorado，Washington和 Montana辖区。而后美国内战结束，西部铁路开通，新兴的帝国得以对荒蛮的西部加速开发。于是能现出了许多大大小小的围绕矿点形成的城镇。随着矿点的枯竭和工业经济的发展，很多交通不便的城镇失去了生存的基础，乃至破败荒芜。今天的洛基山脉沿线便有许多这种无人居住的废弃的鬼城（ghost town）。
 
@@ -40,5 +39,8 @@
 “很繁华的地方，有一家银行？”
 “艾城现在已经是一座鬼城了。”
 
-［文中关于Idaho city的故事参考了Zhu, Liping. A Chinaman's Chance: the Chinese on the Rocky Mountain mining frontier. University Press of Colorado, 1997.其余参考资料恕不一一列出。如有不确之处敬请不吝赐教。］
+==Notes==
 
+1. 文中关于Idaho city的故事参考了Zhu, Liping. A Chinaman's Chance: the Chinese on the Rocky Mountain mining frontier. University Press of Colorado, 1997.
+
+2. First written in 2006-4. Thanks to Ben for correcting the name of Chan.

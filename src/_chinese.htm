@@ -1,0 +1,25 @@
+<div class="container-fluid text-left">
+    <h3>部分中文写作和翻译</h3>
+    <p>Under construction.</p>
+    <div class="row">
+        <div class="col-md-8">
+            {% for article in articles %}
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                    <h4 class="panel-title">{{ article.title }}</h3>
+                    </div>
+                    <div class="panel-body">
+                        {{ article.content }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="col-md-4">
+            <ul>
+                {% for article in articles %}
+                    <li>{{ article.title }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+      </div>
+</div>
