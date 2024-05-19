@@ -10,7 +10,7 @@ def parse_article(text_file):
     '''
     t = open(text_file).readlines()
     title = t[0].rstrip()
-    content = ''.join(t[2:])
+    content = '<p>' + '</p><p>'.join(t[2:]) + '</p>'
     return (title, content)
 
 # will make more generic later
