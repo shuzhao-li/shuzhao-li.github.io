@@ -69,7 +69,7 @@ def main():
     
     # make cv.html
     concatenate_html(
-        header, footer, body="src/_underconstruction.htm", body_dict={},
+        header, footer, body="src/_cv.htm", body_dict={},
         target="docs/cv.html"
         )
     
