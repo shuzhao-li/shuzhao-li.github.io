@@ -29,8 +29,10 @@ def main():
     
     header = prepare_html(open("src/_header.htm").read(), {})
     footer = prepare_html(open("src/_footer.htm").read(), {'time_record': time.ctime()})
+
     # will make more generic later
-    list_articles = get_posts_from_dir()
+    list_ch_articles = get_posts_from_dir('text_ch/', prefix_filter='.txt')
+    list_posts = get_posts_from_dir('posts/', prefix_filter='.txt')
     
     # Convert Google Scholar exported bibtex to HTML
     with open("src/bibtex_publications.htm", 'w') as F:
@@ -63,7 +65,7 @@ def main():
     
     # make teaching.html
     concatenate_html(
-        header, footer, body="src/_underconstruction.htm", body_dict={},
+        header, footer, body="src/_teach.htm", body_dict={},
         target="docs/teaching.html"
         )
     
@@ -75,13 +77,13 @@ def main():
     
     # make chinese.html
     concatenate_html(
-        header, footer, body="src/_chinese.htm",  body_dict={'articles': list_articles},
+        header, footer, body="src/_chinese.htm",  body_dict={'articles': list_ch_articles},
         target="docs/chinese.html"
         )
     
     # make posts.html
     concatenate_html(
-        header, footer, body="src/_posts.htm", body_dict={},
+        header, footer, body="src/_posts.htm", body_dict={'articles': list_posts},
         target="docs/posts.html"
         )
     

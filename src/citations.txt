@@ -36,9 +36,10 @@
   author={Li, Shuzhao and Pozhitkov, Alexander and Ryan, Rachel A and Manning, Charles S and Brown-Peterson, Nancy and Brouwer, Marius},
   journal={Genome biology},
   volume={11},
-  pages={1--15},
+  number={11},
+  pages={R115},
   year={2010},
-  publisher={BioMed Central}
+  publisher={BioMed Central London}
 }
 
 @article{roede2012detailed,
@@ -132,7 +133,7 @@
 @article{hoffman2014effects,
   title={Effects of age, sex, and genotype on high-sensitivity metabolomic profiles in the fruit fly, D rosophila melanogaster},
   author={Hoffman, Jessica M and Soltow, Quinlyn A and Li, Shuzhao and Sidik, Alfire and Jones, Dean P and Promislow, Daniel EL},
-  journal={Aging Cell},
+  journal={Aging cell},
   volume={13},
   number={4},
   pages={596--604},
@@ -175,12 +176,12 @@
 @article{boube2014identification,
   title={Identification of genes involved in Taura Syndrome Virus resistance in Litopenaeus vannamei},
   author={Boube, I and Lotz, JM and Pozhitkov, AE and Li, S and Griffitt, RJ},
-  journal={Journal of aquatic animal health},
+  journal={Journal of Aquatic Animal Health},
   volume={26},
   number={3},
   pages={137--143},
   year={2014},
-  publisher={Taylor \& Francis}
+  publisher={Oxford University Press Oxford, UK}
 }
 
 @article{xu2014autophagy,
@@ -401,9 +402,10 @@
   author={Gardinassi, Luiz Gustavo and Xia, Jianguo and Safo, Sandra E and Li, Shuzhao},
   journal={Current Pharmacology Reports},
   volume={3},
+  number={6},
   pages={374--383},
   year={2017},
-  publisher={Springer International Publishing}
+  publisher={Springer International Publishing Cham}
 }
 
 @article{myers2017detailed,
@@ -480,8 +482,8 @@
   journal={JCI insight},
   volume={4},
   number={9},
-  year={2019},
-  publisher={American Society for Clinical Investigation}
+  pages={e125156},
+  year={2019}
 }
 
 @article{hu2020metabolome,
@@ -530,11 +532,11 @@
 @article{alvarez2017corrigendum,
   title={Corrigendum to “Plasma metabolomics in adults with cystic fibrosis during a pulmonary exacerbation: A pilot randomized study of high-dose vitamin D3 administration”[Metabolism vol. 70, May 2017, pages 31--41]},
   author={Alvarez, Jessica A and Chong, Elizabeth Y and Walker, Douglas I and Chandler, Joshua D and Michalski, Ellen S and Grossmann, Ruth E and Uppal, Karan and Li, Shuzhao and Frediani, Jennifer K and Tirouvanziam, Rabindra and others},
-  journal={Metabolism-Clinical and Experimental},
+  journal={Metabolism},
   volume={74},
   pages={41--42},
   year={2017},
-  publisher={Elsevier}
+  publisher={WB Saunders}
 }
 
 @inproceedings{walker2018metabolome,
@@ -554,7 +556,7 @@
   number={1\_Supplement},
   pages={192--8},
   year={2015},
-  publisher={American Association of Immunologists}
+  publisher={Oxford University Press}
 }
 
 @article{alvarez2017plasma,
@@ -621,7 +623,7 @@
   journal={Computational methods and data analysis for metabolomics},
   pages={469--487},
   year={2020},
-  publisher={Springer US}
+  publisher={Springer US New York, NY}
 }
 
 @article{karnovsky2020pathway,
@@ -630,16 +632,16 @@
   journal={Computational methods and data analysis for metabolomics},
   pages={387--400},
   year={2020},
-  publisher={Springer US}
+  publisher={Springer US New York, NY}
 }
 
-@article{pittard2020essential,
+@incollection{pittard2020essential,
   title={The essential toolbox of data science: Python, R, Git, and Docker},
   author={Pittard, W Stephen and Li, Shuzhao},
-  journal={Computational Methods and Data Analysis for Metabolomics},
+  booktitle={Computational Methods and Data Analysis for Metabolomics},
   pages={265--311},
   year={2020},
-  publisher={Springer US}
+  publisher={Springer US New York, NY}
 }
 
 @article{pittard2020bioinformatics,
@@ -648,7 +650,7 @@
   journal={Computational Methods and Data Analysis for Metabolomics},
   pages={245--263},
   year={2020},
-  publisher={Springer US}
+  publisher={Springer US New York, NY}
 }
 
 @inproceedings{vos2015discovery,
@@ -684,9 +686,11 @@
 
 @article{ferranti2020early,
   title={Early pregnancy serum metabolite profiles associated with hypertensive disorders of pregnancy in African American women: a pilot study},
-  author={Ferranti, Erin P and Frediani, Jennifer K and Mitchell, Rebecca and Fernandes, Jolyn and Li, Shuzhao and Jones, Dean P and Corwin, Elizabeth and Dunlop, Anne L and others},
+  author={Ferranti, Erin P and Frediani, Jennifer K and Mitchell, Rebecca and Fernandes, Jolyn and Li, Shuzhao and Jones, Dean P and Corwin, Elizabeth and Dunlop, Anne L},
   journal={Journal of pregnancy},
   volume={2020},
+  number={1},
+  pages={1515321},
   year={2020},
   publisher={Hindawi}
 }
@@ -707,8 +711,8 @@
   journal={JCI insight},
   volume={5},
   number={10},
-  year={2020},
-  publisher={American Society for Clinical Investigation}
+  pages={e137131},
+  year={2020}
 }
 
 @article{pang2020metaboanalystr,
@@ -723,7 +727,7 @@
 }
 
 @article{goll2020transcriptomic,
-  title={Transcriptomic and metabolic responses to a live-attenuated francisella tularensis vaccine},
+  title={Transcriptomic and metabolic responses to a live-attenuated Francisella tularensis vaccine},
   author={Goll, Johannes B and Li, Shuzhao and Edwards, James L and Bosinger, Steven E and Jensen, Travis L and Wang, Yating and Hooper, William F and Gelber, Casey E and Sanders, Katherine L and Anderson, Evan J and others},
   journal={Vaccines},
   volume={8},
@@ -767,7 +771,7 @@
 @article{liu2021large,
   title={Large scale enzyme based xenobiotic identification for exposomics},
   author={Liu, Ken H and Lee, Choon M and Singer, Grant and Bais, Preeti and Castellanos, Francisco and Woodworth, Michael H and Ziegler, Thomas R and Kraft, Colleen S and Miller, Gary W and Li, Shuzhao and others},
-  journal={Nature Communications},
+  journal={Nature communications},
   volume={12},
   number={1},
   pages={5418},
@@ -821,7 +825,7 @@
   number={9},
   pages={1182--1189},
   year={2022},
-  publisher={American Society for Pharmacology and Experimental Therapeutics}
+  publisher={Elsevier}
 }
 
 @misc{cribbs2016correlation,
@@ -884,11 +888,13 @@
 
 @article{mitchell2024common,
   title={Common data models to streamline metabolomics processing and annotation, and implementation in a Python pipeline},
-  author={Mitchell, Joshua and Chi, Yuanye and Thapa, Maheshwor and Pang, Zhiqiang and Xia, Jianguo and Li, Shuzhao},
-  journal={bioRxiv},
-  pages={2024--02},
+  author={Mitchell, Joshua M and Chi, Yuanye and Thapa, Maheshwor and Pang, Zhiqiang and Xia, Jianguo and Li, Shuzhao},
+  journal={PLOS Computational Biology},
+  volume={20},
+  number={6},
+  pages={e1011912},
   year={2024},
-  publisher={Cold Spring Harbor Laboratory}
+  publisher={Public Library of Science San Francisco, CA USA}
 }
 
 @article{chong46wishart,
@@ -901,19 +907,12 @@
 @article{pang2024metaboanalyst,
   title={MetaboAnalyst 6.0: towards a unified platform for metabolomics data processing, analysis and interpretation},
   author={Pang, Zhiqiang and Lu, Yao and Zhou, Guangyan and Hui, Fiona and Xu, Lei and Viau, Charles and Spigelman, Aliya F and MacDonald, Patrick E and Wishart, David S and Li, Shuzhao and others},
-  journal={Nucleic Acids Research},
-  pages={gkae253},
+  journal={Nucleic acids research},
+  volume={52},
+  number={W1},
+  pages={W398--W406},
   year={2024},
   publisher={Oxford University Press}
-}
-
-@article{li2018metaboanalyst,
-  title={MetaboAnalyst 4.0: towards more transparent and integrative metabolomics analysis},
-  author={Li, C and Soufan, O and Chong, J and Xia, J and Bourque, G and Li, S and Caraus, I and Wishart, DS},
-  journal={Nucleic Acids Res},
-  volume={46},
-  pages={W486--W494},
-  year={2018}
 }
 
 @article{chong104,
@@ -924,6 +923,126 @@
 
 @article{pang105,
   title={5.0: Narrowing the gap between raw spectra and functional insights., 2021, 49, pp},
-  author={Pang, Z and Chong, J and Zhou, G and de Lima Morais, DA and Chang, L and Barrette, M and Gauthier, C and Jacques, PE and Li, S and MetaboAnalyst, J Xia},
+  author={Pang, Z and Chong, J and Zhou, G and de Lima Morais, DA and Chang, L and Barrette, M and Gauthier, C and Jacques, P{\'E} and Li, S and MetaboAnalyst, J Xia},
   journal={W388-W396. DOI: https://doi. org/10.1093/nar/gkab382. PMID: https://www. ncbi. nlm. nih. gov/pubmed/34019663}
+}
+
+@article{li2010linking,
+  title={Linking probe thermodynamics to microarray quantification},
+  author={Li, Shuzhao and Pozhitkov, Alexander and Brouwer, Marius},
+  journal={Physical Biology},
+  volume={7},
+  number={4},
+  pages={048001},
+  year={2010},
+  publisher={IOP Publishing}
+}
+
+@article{joshua2024annotation,
+  title={Annotation of Metabolites in Stable Isotope Tracing Untargeted Metabolomics via Khipu-web},
+  author={Joshua M. Mitchell, Yuanye Chi, Shujian Zheng, Maheshwor Thapa, Eric Wang, Shuzhao Li},
+  journal={Journal of the American Society for Mass Spectrometry},
+  pages={https--pubs},
+  year={2024}
+}
+
+@article{metz2024introducing,
+  title={Introducing “Identification Probability” for Automated and Transferable Assessment of Metabolite Identification Confidence in Metabolomics and Related Studies},
+  author={Metz, Thomas O and Chang, Christine H and Gautam, Vasuk and Anjum, Afia and Tian, Siyang and Wang, Fei and Colby, Sean M and Nunez, Jamie R and Blumer, Madison R and Edison, Arthur S and others},
+  journal={Analytical chemistry},
+  volume={97},
+  number={1},
+  pages={1--11},
+  year={2024},
+  publisher={American Chemical Society}
+}
+
+@article{cortese2025system,
+  title={System vaccinology analysis of predictors and mechanisms of antibody response durability to multiple vaccines in humans},
+  author={Cortese, Mario and Hagan, Thomas and Rouphael, Nadine and Wu, Sheng-Yang and Xie, Xia and Kazmin, Dmitri and Wimmers, Florian and Gupta, Shakti and van der Most, Robbert and Coccia, Margherita and others},
+  journal={Nature immunology},
+  volume={26},
+  number={1},
+  pages={116--130},
+  year={2025},
+  publisher={Nature Publishing Group US New York}
+}
+
+@article{nakayaa17,
+  title={A17 SYSTEMS BIOLOGY OF VACCINATION FOR SEASONAL INFLUENZA IN HUMANS 74},
+  author={Nakaya, Helder I and Wrammert, Jens and Lee, Eva K and Racioppi, Luigi and Marie-Kunze, Stephanie and Haining, W Nicholas and Means, Anthony R and Kasturi, Sudhir P and Khan, Nooruddin and Li, Gui-Mei and others}
+}
+
+@article{ravindran531sharma,
+  title={Sharma P4, Kaufman RJ, Martinez J, Pulendran B (2016)},
+  author={Ravindran, R and Loebbermann, J and Nakaya, HI and Khan, N and Ma, H and Gama, L and Machiah, DK and Lawson, B and Hakimpour, P and Wang, YC and others},
+  journal={The amino acid sensor GCN2 controls gut inflammation by inhibiting inflammasome activation. Nature},
+  volume={531},
+  pages={523--27}
+}
+
+@article{adli2025morphic,
+  title={MorPhiC Consortium: towards functional characterization of all human genes},
+  author={Adli, Mazhar and Przybyla, Laralynne and Burdett, Tony and Burridge, Paul W and Cacheiro, Pilar and Chang, Howard Y and Engreitz, Jesse M and Gilbert, Luke A and Greenleaf, William J and Hsu, Li and others},
+  journal={Nature},
+  volume={638},
+  number={8050},
+  pages={351--359},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
+}
+
+@article{miller2025integrating,
+  title={Integrating exposomics into biomedicine},
+  author={Miller, Gary W and Banbury Exposomics Consortium},
+  journal={Science},
+  volume={388},
+  number={6745},
+  pages={356--358},
+  year={2025},
+  publisher={American Association for the Advancement of Science}
+}
+
+@book{li2020computational,
+  title={Computational methods and data analysis for metabolomics},
+  author={Li, Shuzhao},
+  year={2020},
+  publisher={Springer}
+}
+
+@article{chi2025constructing,
+  title={Constructing a consensus serum metabolome},
+  author={Chi, Yuanye and Mitchell, Joshua M and Thapa, Maheshwor and Zheng, Shujian and Frohock, Zackary and Li, Yi and Smirnov, Aleksandr and Du, Xiuxia and Li, Shuzhao},
+  journal={bioRxiv},
+  pages={2025--05},
+  year={2025},
+  publisher={Cold Spring Harbor Laboratory}
+}
+
+@article{chi2025systematic,
+  title={Systematic pre-annotation explains the “dark matter” in LC-MS metabolomics},
+  author={Chi, Yuanye and Mitchell, Joshua M and Zheng, Shujian and Li, Shuzhao},
+  journal={bioRxiv},
+  year={2025}
+}
+
+@article{li2025circular,
+  title={Circular van Krevelen diagram for visualizing metabolic pathways},
+  author={Li, Shuzhao},
+  journal={bioRxiv},
+  year={2025}
+}
+
+@article{pang492021,
+  title={.(2021) MetaboAnalyst 5.0: narrowing the gap between raw spectra and functional insights},
+  author={Pang, Z and Chong, J and Zhou, G and de Lima Morais, DA and Chang, L and Barrette, M and Gauthier, C and Jacques, P and Li, S and Xia, J},
+  journal={Nucleic Acids Res},
+  volume={49},
+  pages={W388--W396}
+}
+
+@misc{li2013predicting,
+  title={Predicting Network Activity from High Throughput Metabolomics.,(7), e1003123},
+  author={Li, S and Park, Y and Duraisingham, S and Strobel, FH and Khan, N and Soltow, QA and Jones, DP and Pulendran, B},
+  year={2013}
 }

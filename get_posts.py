@@ -1,5 +1,9 @@
 '''
 Extract posts
+
+To-do: Create blog style posts from plain text files. 
+Generate list of contents from directory of text files.
+
 '''
 
 import os
@@ -14,10 +18,12 @@ def parse_article(text_file):
     return (title, content)
 
 # will make more generic later
-def get_posts_from_dir(dir='text/'):
+def get_posts_from_dir(dir='text/', prefix_filter='.txt'):
     files = os.listdir(dir)
     list_articles = []
     for f in files:
+        if not f.endswith(prefix_filter):
+            continue
         title, content = parse_article(dir + f)
         list_articles.append(
             {'title': title,
